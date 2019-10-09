@@ -12,5 +12,6 @@ hello_t(name) do { |n|
   if name.start_with?("T")
     puts "Hi, #{name}"
   end
+end
 }
 
