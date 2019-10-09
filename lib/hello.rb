@@ -5,6 +5,8 @@ def hello_t(array)
     yield(array[i]) if block_given?
     i = i + 1
   end
+  
+  array
 end
 
 # call your method here!
